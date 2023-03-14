@@ -104,8 +104,48 @@ export const RecipeChoice = ({ choice, onClick }) => {
               </Box>
               <DivideLine />
               <Text pb={"5px"} fontWeight={"bold"}>
-                Nutriens
+                Nutrients
               </Text>
+
+              <Flex flexWrap={"wrap"} gap={"2"}>
+                <Text fontSize={"small"}>
+                  <Text color={"grey"}>
+                    Calories <br />
+                  </Text>
+                  {choice.recept.totalNutrients.ENERC_KCAL.quantity}
+                </Text>
+                <Text fontSize={"small"}>
+                  <Text color={"grey"}>
+                    Fat <br />
+                  </Text>
+                  {choice.recept.totalNutrients.FAT.quantity}
+                </Text>
+                <Text fontSize={"small"}>
+                  <Text color={"grey"}>
+                    Carbs <br />
+                  </Text>
+                  {choice.recept.totalNutrients.CHOCDF.quantity}
+                </Text>
+                <Text fontSize={"small"}>
+                  <Text color={"grey"}>
+                    Protein
+                    <br />
+                  </Text>
+                  {choice.recept.totalNutrients.PROCNT.quantity}
+                </Text>
+                <Text fontSize={"small"}>
+                  <Text color={"grey"}>
+                    Cholesterol <br />
+                  </Text>
+                  {choice.recept.totalNutrients.CHOLE.quantity}
+                </Text>
+                <Text fontSize={"small"}>
+                  <Text color={"grey"}>
+                    Sodium <br />
+                  </Text>
+                  {choice.recept.totalNutrients.NA.quantity}
+                </Text>
+              </Flex>
 
               <DivideLine />
             </Flex>
