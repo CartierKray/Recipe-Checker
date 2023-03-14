@@ -48,7 +48,7 @@ export const RecipeChoice = ({ choice, onClick }) => {
               </Text>
               <Text
                 color={"grey"}
-                paddingTop={"10px"}
+                paddingTop={"5px"}
                 fontSize={"11"}
                 fontWeight={"bold"}
                 textTransform={"uppercase"}
@@ -57,7 +57,7 @@ export const RecipeChoice = ({ choice, onClick }) => {
               </Text>
               <Text
                 color={"grey"}
-                paddingTop={"10px"}
+                paddingTop={"5px"}
                 fontSize={"11"}
                 fontWeight={"bold"}
                 textTransform={"uppercase"}
@@ -66,7 +66,7 @@ export const RecipeChoice = ({ choice, onClick }) => {
               </Text>
               <Text
                 color={"grey"}
-                paddingTop={"10px"}
+                paddingTop={"5px"}
                 fontSize={"11"}
                 fontWeight={"bold"}
                 textTransform={"uppercase"}
@@ -86,7 +86,7 @@ export const RecipeChoice = ({ choice, onClick }) => {
                       color={"green.700"}
                       fontSize={"10"}
                       gap={2}
-                      margin={"4px"}
+                      margin={"0px"}
                     >
                       {veg}
                     </Tag>
@@ -106,8 +106,7 @@ export const RecipeChoice = ({ choice, onClick }) => {
               <Text pb={"5px"} fontWeight={"bold"}>
                 Nutriens
               </Text>
-              <Flex fontSize={"small"} pt={"5px"} fontWeight={"normal"}></Flex>
-              {choice.recept.totalNutrients.FAT}
+
               <DivideLine />
             </Flex>
 
@@ -132,8 +131,8 @@ export const RecipeChoice = ({ choice, onClick }) => {
                   <Tag
                     textTransform={"uppercase"}
                     key={self.crypto.randomUUID()}
-                    backgroundColor={"green.200"}
-                    color={"green.700"}
+                    backgroundColor={"aqua"}
+                    color={"blue.700"}
                     fontSize={"10"}
                     gap={2}
                   >
