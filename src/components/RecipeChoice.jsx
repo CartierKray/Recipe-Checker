@@ -113,37 +113,38 @@ export const RecipeChoice = ({ choice, onClick }) => {
                     Calories <br />
                   </Text>
                   {Math.round(choice.recept.totalNutrients.ENERC_KCAL.quantity)}
+                  kcal
                 </Text>
                 <Text fontSize={"small"}>
                   <Text color={"grey"}>
                     Fat <br />
                   </Text>
-                  {Math.round(choice.recept.totalNutrients.FAT.quantity)}
+                  {Math.round(choice.recept.totalNutrients.FAT.quantity)}g
                 </Text>
                 <Text fontSize={"small"}>
                   <Text color={"grey"}>
                     Carbs <br />
                   </Text>
-                  {Math.round(choice.recept.totalNutrients.CHOCDF.quantity)}
+                  {Math.round(choice.recept.totalNutrients.CHOCDF.quantity)}g
                 </Text>
                 <Text fontSize={"small"}>
                   <Text color={"grey"}>
                     Protein
                     <br />
                   </Text>
-                  {Math.round(choice.recept.totalNutrients.PROCNT.quantity)}
+                  {Math.round(choice.recept.totalNutrients.PROCNT.quantity)}g
                 </Text>
                 <Text fontSize={"small"}>
                   <Text color={"grey"}>
                     Cholesterol <br />
                   </Text>
-                  {Math.round(choice.recept.totalNutrients.CHOLE.quantity)}
+                  {Math.round(choice.recept.totalNutrients.CHOLE.quantity)}mg
                 </Text>
                 <Text fontSize={"small"}>
                   <Text color={"grey"}>
                     Sodium <br />
                   </Text>
-                  {Math.round(choice.recept.totalNutrients.NA.quantity)}
+                  {Math.round(choice.recept.totalNutrients.NA.quantity)}mg
                 </Text>
               </Flex>
 
