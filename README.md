@@ -1,1 +1,1 @@
-React Basics Assignment
+React Basics Assignment - Recipe Checker App
