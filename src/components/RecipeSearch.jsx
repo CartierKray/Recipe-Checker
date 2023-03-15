@@ -63,7 +63,7 @@ export const RecipeSearch = ({ onClick }) => {
               backgroundColor={"green.200"}
               color={"green.700"}
               fontSize={"10"}
-              gap={2}
+              gap={"2"}
               margin={"4px"}
             >
               {veg}
