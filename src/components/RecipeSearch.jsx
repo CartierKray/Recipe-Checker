@@ -21,7 +21,7 @@ export const RecipeSearch = ({ onClick }) => {
     })
     .map((recept) => (
       <Box
-        _hover={{ bg: "yellow.100" }}
+        _hover={{ bg: "yellow.50" }}
         key={recept.id}
         maxW={250}
         bg={"white"}
