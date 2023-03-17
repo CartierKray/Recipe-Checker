@@ -18,12 +18,7 @@ export const RecipeChoice = ({ choice, onClick }) => {
     <Box>
       <Center flexDir="column" minHeight={"100vh"} bg={"#1F8BF9"}>
         <Box bg={"white"} minHeight={"100vh"} maxWidth={"75vw"}>
-          <Button
-            onClick={() => onClick()}
-            bg={"blue.200"}
-            margin={"10px"}
-            _hover={{ bg: "blue.500", color: "white" }}
-          >
+          <Button onClick={() => onClick()} bg={"blue.200"} margin={"10px"}>
             <TagLeftIcon as={ArrowLeftIcon} variant="ghost"></TagLeftIcon>
           </Button>
 
